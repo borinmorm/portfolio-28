@@ -501,7 +501,7 @@ form textarea{
 
     .scroll-btn {
         bottom: 0;
-        top: 3em;
+        top: -19em;
     }
 
     nav{
@@ -654,7 +654,7 @@ form textarea{
     }
 
     .footer-container {
-        height: 90px;
+        height: 95px;
     }
 
     .footer-info{
@@ -672,6 +672,7 @@ form textarea{
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        margin-left: 2rem;
+        margin-left: 1rem;
+        margin-bottom: 1rem;
     }
 }
