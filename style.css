@@ -495,14 +495,12 @@ form textarea{
         margin: 0 1rem;
     }
 
-    .scroll-btn{
-        display: none;
+    .auto-type{
+        font-size: 0.78rem;
     }
-    .scroll-btn:before{
-        display: none;
-    }
-    .scroll-btn:after{
-        display: none;
+
+    .scroll-btn {
+        bottom: 12em;
     }
 
     nav{
@@ -568,10 +566,6 @@ form textarea{
 
     .home-page-container{
         margin-top: 0;
-    }
-
-    .about-container{
-        margin-top: -19em;
     }
 
     .about-container h1{
@@ -659,7 +653,7 @@ form textarea{
     }
 
     .footer-container {
-        height: 80px;
+        height: 90px;
     }
 
     .footer-info{
