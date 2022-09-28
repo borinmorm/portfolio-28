@@ -345,7 +345,8 @@ form{
     border-radius: 3px;
     padding: 15px;
     transition: 0.3s;
-    width: 380px;
+    max-width: 380px;
+    
 }
 
 form:hover{
@@ -369,8 +370,6 @@ form input:hover, textarea:hover{
 }
 
 form textarea{
-    max-width: 350px;
-    min-width: 350px;
     min-height: 100px;
 }
 
@@ -390,11 +389,9 @@ form textarea{
     border: 1px solid rgb(0, 255, 242);
 }
 
-
-
 .coffee-container {
     width: 100%;
-    height: 50vh;
+    height: 80vh;
 }
 
 .coffee h1{
@@ -495,10 +492,16 @@ form textarea{
 
 @media only screen and (max-width: 650px) {
     .container {
-            margin: 0 1rem;
+        margin: 0 1rem;
     }
 
     .scroll-btn{
+        display: none;
+    }
+    .scroll-btn:before{
+        display: none;
+    }
+    .scroll-btn:after{
         display: none;
     }
 
@@ -564,7 +567,7 @@ form textarea{
     }
 
     .home-page-container{
-        margin-top: -20em;
+        margin-top: 0;
     }
 
     .about-container{
@@ -636,10 +639,6 @@ form textarea{
 
     .form-title h2{
         text-align: center;
-    }
-
-    .coffee-container{
-        height: 40vh;
     }
 
     .coffee h1{
